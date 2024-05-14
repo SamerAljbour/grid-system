@@ -1,0 +1,15 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(60,1fr);
+    grid-template-rows: repeat(7,1fr);
+    text-align: center;
+    gap: 5px;
+}
+.container > div{
+    background-color: #46b3fe;
+    display: grid;
+    align-items: center;
+    color: white;
+    border-radius: 10px;
+    
+}

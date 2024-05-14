@@ -1,0 +1,32 @@
+.container{
+    display: grid;
+    background-color: #a0d0ea;
+    height: 70vh;
+    width: 25vw;
+    margin: auto;
+    gap: 10px;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto;
+
+}
+
+.input {
+    padding-bottom: 10px;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    background-color: white;
+    
+}
+.container > div{
+
+    padding-top: 40px;
+    text-align: center;
+    background-color: white;
+    width: 75%;
+    height: 25px;
+    margin-left:10px ;
+    
+}
+.items{
+    box-shadow: 0 4px 6px;
+}
